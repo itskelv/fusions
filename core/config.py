@@ -28,7 +28,7 @@ training_param = {
     'frame_len_samples': input['input_len_sec'] * input['fs'], # number of audio samples in input_len_sec,
     'num_video_frames': input['input_len_sec'] * input['fps'], # number of video frames in input_len_sec,
     'visual_encoder_type': 'resnet', # choose between 'resnet' or 'i3d'
-    'model_type': 'conformer', # choose between 'conformer' or 'cmaf'
+    'model_type': 'cmaf', # choose between 'conformer' or 'cmaf'
     'num_heads': 8, # number of heads in MHSA-MHCA
     'num_cmaf_layers': 4,
 }
