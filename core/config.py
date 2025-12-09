@@ -5,9 +5,9 @@ import torch, os
 
 
 input = {
-    'project_path': '/mnt/fast/nobackup/users/db00785/AV-SELD/', #,os.getcwd()
-    'data_path': '/mnt/fast/nobackup/scratch4weeks/db00785/data_dcase2023_task3/', # path to dataset
-    'feature_path': '/mnt/fast/nobackup/scratch4weeks/db00785/data_dcase2023_task3/features/', # might want to save h5py (and scaler) somewhere else.
+    'project_path': '.idea/AV-SELD/', #,os.getcwd()
+    'data_path': '../DCASE_FOA_DATASET/', # path to dataset
+    'feature_path': '../DCASE_FOA_DATASET/features/', # might want to save h5py (and scaler) somewhere else.
     'features': 'IV',
     'fps': 10,
     'fs': 24000, # Hz
